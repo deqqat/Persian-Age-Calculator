@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deqqat Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>محاسبه سن</h1>
+        <div class="form">
+            <label for="dob">تاریخ تولد:</label>
+            <input type="date" id="dob">
+            <button onclick="calculateAge()" onkeydown="if (event.key === 'Enter') calculateAge()">محاسبه سن</button>
+        </div>
+        <div class="result">
+            <p dir="rtl">سن شما <p dir="rtl" id="ageResult"> سال۰و ماه۰و روز۰ </p> است</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
